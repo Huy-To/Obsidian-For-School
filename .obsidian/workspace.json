@@ -11,14 +11,13 @@
             "id": "2de7dde2eaf43aea",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "School/Data Structure.md",
-                "mode": "source",
-                "source": false
+                "file": "Templates/Bases/Classes.base",
+                "viewName": "Classes"
               },
-              "icon": "lucide-file",
-              "title": "Data Structure"
+              "icon": "lucide-table",
+              "title": "Classes"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Data Structure.md",
+                "file": "Templates/Bases/Classes.base",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Data Structure"
+              "title": "Backlinks for Classes"
             }
           },
           {
@@ -171,10 +170,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "School/Data Structure.md"
+                "file": "Templates/Bases/Classes.base"
               },
               "icon": "lucide-info",
-              "title": "File properties for Data Structure"
+              "title": "File properties for Classes"
             }
           },
           {
@@ -208,18 +207,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "9b96a661715cb44c",
+  "active": "2de7dde2eaf43aea",
   "lastOpenFiles": [
-    "School/Data Structure.md",
-    "Categories/Classes.md",
+    "README.md",
     "Templates/Bases/Classes.base",
     "Templates/Classes Template.md",
-    "School",
-    "Untitled.canvas",
-    "Templates/Bases/Untitled.md",
     "Templates/Bases",
     "Templates",
-    "Welcome.md",
-    "Categories"
+    "School/Data Structure.md",
+    "School",
+    "Categories/Classes.md",
+    "Categories",
+    "Untitled.canvas",
+    "Templates/Bases/Untitled.md",
+    "Welcome.md"
   ]
 }

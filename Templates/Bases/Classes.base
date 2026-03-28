@@ -1,0 +1,39 @@
+formulas:
+  Untitled: ""
+properties:
+  file.name:
+    displayName: Course
+  note.date:
+    displayName: Date
+  note.email:
+    displayName: Email
+  note.source:
+    displayName: Source
+  note.teacher:
+    displayName: Teacher
+  note.course:
+    displayName: Course
+  note.categories:
+    displayName: Categories
+views:
+  - type: table
+    name: Classes
+    filters:
+      and:
+        - file.inFolder("School")
+    order:
+      - categories
+      - course
+      - date
+      - source
+      - teacher
+      - email
+    sort:
+      - property: file.name
+        direction: DESC
+    columnSize:
+      note.course: 111
+      note.date: 105
+      note.source: 107
+      note.teacher: 138
+      note.email: 141

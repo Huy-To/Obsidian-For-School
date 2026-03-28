@@ -1,0 +1,5 @@
+---
+tags:
+  - categories
+---
+![[Classes.base]]

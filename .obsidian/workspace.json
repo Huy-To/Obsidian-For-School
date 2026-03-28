@@ -4,20 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5fb339aa9be513ee",
+        "id": "855ead1717631162",
         "type": "tabs",
         "children": [
           {
-            "id": "2de7dde2eaf43aea",
+            "id": "741e99811890a627",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "Templates/Bases/Classes.base",
-                "viewName": "Classes"
+                "file": "School/Data Structure.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-table",
-              "title": "Classes"
+              "icon": "lucide-file",
+              "title": "Data Structure"
             }
           }
         ]
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Bases/Classes.base",
+                "file": "School/Data Structure.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Classes"
+              "title": "Backlinks for Data Structure"
             }
           },
           {
@@ -170,10 +171,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Templates/Bases/Classes.base"
+                "file": "School/Data Structure.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for Classes"
+              "title": "File properties for Data Structure"
             }
           },
           {
@@ -185,12 +186,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "5b0c8d22bfa2a51d",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,10 +219,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "2de7dde2eaf43aea",
+  "active": "741e99811890a627",
   "lastOpenFiles": [
-    "README.md",
     "Templates/Bases/Classes.base",
+    "README.md",
     "Templates/Classes Template.md",
     "Templates/Bases",
     "Templates",

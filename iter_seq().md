@@ -1,0 +1,1 @@
+Output $X_0, X_1,..., X_{n-1}$ in sequence order

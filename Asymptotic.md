@@ -1,0 +1,1 @@
+Asymptotes is the nature of a graph or a nature of a function as it reaches a untouchable bound (n)

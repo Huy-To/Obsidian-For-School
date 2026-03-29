@@ -1,0 +1,1 @@
+Averaging the Sequence of Operations

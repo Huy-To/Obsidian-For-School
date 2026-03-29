@@ -7,3 +7,90 @@ teacher:
 email:
 date:
 ---
+--- 
+
+# Table of Contents
+
+1. [[#Big O]]
+	1. [[O(n)]]
+	2. O()
+
+--- 
+# Topics
+## Big O 
+
+ **The Question**: How does ==algorithm speed== scale when input scales becoming ==very large==?
+
+<svg id="chart" width="900" height="600" xmlns="http://www.w3.org/2000/svg"><path d="M50 450 L 50 0 L 800 0 L 800 450 Z" fill="#ff8989"></path><path d="M50 450 L 800 0 L 800 450 Z" fill="#FFC543"></path><path d="M50 450 L 800 450 L 800 330 Z" fill="yellow"></path><path d="M50 450 L 800 450 L 800 410 Z" fill="#C8EA00"></path><path d="M50 450 L 800 450 L 800 440 Z" fill="#53d000"></path><path d="M50 0 L 50 450 L 800 450" fill="transparent" stroke="black" stroke-width="2"></path><path d="M50 448 L 800 448" fill="transparent" stroke="black" stroke-width="2"></path><text x="700" y="438" fill="green">O(log n), O(1)</text> <path d="M50 450 L 800 400" fill="transparent" stroke="black" stroke-width="2"></path><text x="760" y="390" fill="black">O(n)</text> <path d="M50 450 Q 400 350, 800 150" fill="transparent" stroke="black" stroke-width="2"></path><text x="630" y="190" fill="black">O(n log n)</text> <path d="M50 450 Q 180 380, 250 0" fill="transparent" stroke="black" stroke-width="2"></path><text x="260" y="30" fill="black">O(n^2)</text> <path d="M50 450 C 100 430, 120 350, 120 0" fill="transparent" stroke="black" stroke-width="2"></path><text x="125" y="20" fill="black">O(2^n)</text> <path d="M50 450 C 80 450, 80 350, 80 0" fill="transparent" stroke="black" stroke-width="2"></path><text x="80" y="20" fill="black">O(n!)</text> <text x="0" y="0" transform="translate(30 230) rotate(-90)" style="dominant-baseline: middle; text-anchor: middle; font-size:20px; color: #555; font-size:20px; color: #555; font-style: italic;" fill="white">Operations</text> <text x="0" y="0" transform="translate(420 470)" style="dominant-baseline: middle; text-anchor: middle; font-size:20px; color: #555; font-style: italic;" fill="white">Elements</text></svg>
+
+We know that no matter how far [[O(n)]] goes, it is bounded below [[O(nlog(n))]], and above [[O(log(n))]] & [[O(1)]].
+
+--- 
+
+ 1. What is n?
+	1. String Length?
+	2. Total tree Nodes?
+	3. Array Size?
+	- Depends on the input and the operations
+	- Example: Input = 2 strings &rarr; Then we have an `m` & `n`
+		- `m` = s1.length
+		- `n` = s2.length
+	&rarr; O could be anything like O(`m + n`), O(`m * n`). It depends on what the problem is
+2. Common Runtime Complexity (O)
+ 
+The tail behavior of the Big O is the most important thing to consider, because it shows the behavior of an algorithm as it scales
+
+
+
+
+---
+
+## Space Complexity
+
+The same as Big O but different question
+
+Space Complexity = Input Space + [[Auxiliary Space]]
+
+1. Optimizing
+
+Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
+
+**Question**: How does the ==space usage scale== as input gets ==very large==?
+
+> **Fibonacci Function** `fib(n)` takes [[O(n)]] space because the recursion depth is n & O($2^n$) time because Each call to `fib(n)` makes **two calls**.
+> $$Fn = F_{n-1} + F_{n-2}$$
+
+
+
+
+## Asymptotic Notations
+
+Every single time you have a piece of code or an algorithm, it requires resources. These resources come in the form of **Time** & **Space**
+
+1. What does [[Asymptotic]] mean?
+
+## Static Array
+1. Key: Word RAM model of computation
+	- Assume w-bit >= $log(n)$
+	- In order to process more `n` w-bit has to grow too
+	- Memory = array of w-bit words
+	- "Array" = Consecutive chunk of memory
+&rarr; Array[i] = Memory[addresses(array) + i]
+&rarr; Array access is [[O(1)]] time
+2. [[O(1)]] per [[get_at(i)]] / [[set_at(i)]] / [[len]]
+3. [[O(n)]] per [[build(x)]] / [[iter_seq()[[iter_seq()]]]]
+
+## [[Linked List]]
+
+
+## Dynamic Array
+
+1. Relax constraint that the `size(array)` = `n`
+2. Enforce `size(array)` = $\theta(n)$ (`size(array)` must be at least the number of `n`)
+3. Maintain $A[i]$ = $X_i$
+4. `Insert(x)` &rarr; $A[len] = X$ | $len += 1$ unless ==size(array) = length==
+5. If n = size &rarr; allocate new array of $2 * size$  &rarr Resize at n = 1, 2, 4, 8, 16,...
+6. &rarr Resize cost = $\theta(1 + 2 + 4 + 8 + 16 +.... + n)$ = $\theta(\sum_{i=1}^{log(n)} 2^i)$ = $\theta(2^{log(n)})$ = $\theta(n)$ because  
+	1. $\theta(\sum_{i=1}^{log(n)} 2^i)$ can be interpreted as $\theta(\sum_{i=1}^k 2^i)$
+	2. [[Geometric Series]]
+## [[Amortization]]

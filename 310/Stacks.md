@@ -1,0 +1,5 @@
+- `Insertions` and `deletions` follow the ==last-in first-out==  (L.I.F.O)
+- Direct applications:
+	- Page-visited history in a Web browser
+	- Undo sequence in a text editor
+	- Chain of method calls in a language supporting recursion

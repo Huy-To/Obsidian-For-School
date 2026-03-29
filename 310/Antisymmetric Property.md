@@ -1,0 +1,1 @@
+$$x \le y \;\text{ and }\; y \le x \rightarrow x = y$$

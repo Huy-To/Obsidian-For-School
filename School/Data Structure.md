@@ -69,28 +69,30 @@ Every single time you have a piece of code or an algorithm, it requires resource
 
 1. What does [[Asymptotic]] mean?
 
-## Static Array
-1. Key: Word RAM model of computation
-	- Assume w-bit >= $log(n)$
-	- In order to process more `n` w-bit has to grow too
-	- Memory = array of w-bit words
-	- "Array" = Consecutive chunk of memory
-&rarr; Array[i] = Memory[addresses(array) + i]
-&rarr; Array access is [[O(1)]] time
-2. [[O(1)]] per [[get_at(i)]] / [[set_at(i)]] / [[len]]
-3. [[O(n)]] per [[build(x)]] / [[iter_seq()[[iter_seq()]]]]
+## [[Static Array]]
 
 ## [[Linked List]]
 
+## [[Dynamic Array]]
 
-## Dynamic Array
-
-1. Relax constraint that the `size(array)` = `n`
-2. Enforce `size(array)` = $\theta(n)$ (`size(array)` must be at least the number of `n`)
-3. Maintain $A[i]$ = $X_i$
-4. `Insert(x)` &rarr; $A[len] = X$ | $len += 1$ unless ==size(array) = length==
-5. If n = size &rarr; allocate new array of $2 * size$  &rarr Resize at n = 1, 2, 4, 8, 16,...
-6. &rarr Resize cost = $\theta(1 + 2 + 4 + 8 + 16 +.... + n)$ = $\theta(\sum_{i=1}^{log(n)} 2^i)$ = $\theta(2^{log(n)})$ = $\theta(n)$ because  
-	1. $\theta(\sum_{i=1}^{log(n)} 2^i)$ can be interpreted as $\theta(\sum_{i=1}^k 2^i)$
-	2. [[Geometric Series]]
 ## [[Amortization]]
+
+## [[Stacks]]
+
+## [[Queue]]
+
+## [[Total Order]]
+- Every pair of such keys must be comparable according to a total order 
+- Each entry is a pair (key, value)
+
+## [[Priority Queue ]]
+
+## [[Heaps]]
+
+## [[Binary Search]]
+
+## [[Hash Tables]]
+
+## [[Bloom Filters]]
+
+## [[Union Find]]

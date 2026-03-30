@@ -35,6 +35,7 @@
 5. Downheap
 	1. Algorithm downheap restores the heap-order property by swapping key `k` along a downward path from the root
 	2. Stops when `k` <= `values_children(node)`
+	3. [[O(log(n))]] time
 6. Heap Guarantees
 	1. In a heap with 𝑛 objects, the Insert and ExtractMin (or ExtractMax) operations run in 𝑂(log 𝑛) time.
 	2. FindMin: given a heap H, return an object with the smallest key [[O(1)]]

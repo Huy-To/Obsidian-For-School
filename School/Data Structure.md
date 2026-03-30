@@ -89,6 +89,8 @@ Every single time you have a piece of code or an algorithm, it requires resource
 
 ## [[Heaps]]
 
+## [[Tree]] 
+
 ## [[Binary Search]]
 
 ## [[Hash Tables]]

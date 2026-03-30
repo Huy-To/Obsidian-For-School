@@ -11,10 +11,6 @@ date:
 
 # Table of Contents
 
-1. [[#Big O]]
-	1. [[O(n)]]
-	2. O()
-
 --- 
 # Topics
 ## Big O 
@@ -62,12 +58,8 @@ Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
 
 
 
-
-## Asymptotic Notations
-
-Every single time you have a piece of code or an algorithm, it requires resources. These resources come in the form of **Time** & **Space**
-
-1. What does [[Asymptotic]] mean?
+## [[Logarithmic]]
+## [[Asymptotic Notations]]
 
 ## [[Static Array]]
 
@@ -98,3 +90,7 @@ Every single time you have a piece of code or an algorithm, it requires resource
 ## [[Bloom Filters]]
 
 ## [[Union Find]]
+
+## [[Merge Sort]]
+
+## [[Quick Sort]]

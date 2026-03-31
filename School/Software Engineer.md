@@ -87,10 +87,16 @@ Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
 
 ## [[Heaps]]
 
+## [[Heap Sort]]
 ## [[Tree]] 
+
+## [[Balanced Binary Tree]]
 
 ## [[Binary Search]]
 
+## [[Maps]]
+
+## [[Hash Function]]
 ## [[Hash Tables]]
 
 ## [[Bloom Filters]]
@@ -99,8 +105,19 @@ Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
 
 ## [[Merge Sort]]
 
+## [[Inversions]]
+
 ## [[Quick Sort]]
 
+## [[Insertion Sort]]
+
+## [[Counting Sort]]
+
+## [[Radix Sort]]
+
+## [[Bucket Sort]]
+
+## [[Bubble Sort]]
 ## [[Breadth First Search]]
 
-[[Depth First Search]]
+## [[Depth First Search]]

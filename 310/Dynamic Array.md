@@ -1,3 +1,8 @@
+---
+categories:
+  - Data Structure
+---
+
 1. Relax constraint that the `size(array)` = `n`
 2. Enforce `size(array)` = $\theta(n)$ (`size(array)` must be at least the number of `n`)
 3. Maintain $A[i]$ = $X_i$

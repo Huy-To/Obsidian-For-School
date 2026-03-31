@@ -1,0 +1,1 @@
+$$left \rightarrow right \rightarrow node$$

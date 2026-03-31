@@ -1,3 +1,8 @@
+---
+categories:
+  - Data Structure
+---
+
 ```mermaid
 
 	graph LR

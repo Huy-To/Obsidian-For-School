@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - categories == ["[[Algorithm]]"]
+    sort:
+      - property: file.name
+        direction: ASC

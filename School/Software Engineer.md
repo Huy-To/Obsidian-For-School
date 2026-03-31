@@ -47,7 +47,13 @@ The same as Big O but different question
 
 Space Complexity = Input Space + [[Auxiliary Space]]
 
-1. Optimizing
+1. What counts as space
+	1. **Extra** memory beyond the input itself
+		- Extra variables (counters, pointers, temp values).
+		- Extra data structures (arrays, lists, hash maps, stacks, queues).
+		- Extra call stack frames from recursion 
+2. Space depends on Depth
+3. Optimizing
 
 Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
 
@@ -94,3 +100,7 @@ Time &darr; Space &uarr; `or` Time &uarr; Space &darr;
 ## [[Merge Sort]]
 
 ## [[Quick Sort]]
+
+## [[Breadth First Search]]
+
+[[Depth First Search]]

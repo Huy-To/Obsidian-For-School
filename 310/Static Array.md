@@ -1,3 +1,8 @@
+---
+categories:
+  - Data Structure
+---
+
 1. Key: Word RAM model of computation
 	- Assume w-bit >= $log(n)$
 	- In order to process more `n` w-bit has to grow too

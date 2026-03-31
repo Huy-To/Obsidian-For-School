@@ -2,7 +2,7 @@ formulas:
   Untitled: ""
 properties:
   file.name:
-    displayName: Course
+    displayName: Topic
   note.date:
     displayName: Date
   note.email:
@@ -15,6 +15,8 @@ properties:
     displayName: Course
   note.categories:
     displayName: Categories
+  file.basename:
+    displayName: AS
 views:
   - type: table
     name: Classes
@@ -22,18 +24,8 @@ views:
       and:
         - file.inFolder("School")
     order:
-      - categories
+      - file.name
       - course
-      - date
-      - source
-      - teacher
       - email
-    sort:
-      - property: file.name
-        direction: DESC
-    columnSize:
-      note.course: 111
-      note.date: 105
-      note.source: 107
-      note.teacher: 138
-      note.email: 141
+      - teacher
+      - date

@@ -1,0 +1,1 @@
+For direct current, impedance and resistance are essentially the same, but in AC circuits impedance changes with frequency because capacitors and inductors affect current flow differently at different frequencies.

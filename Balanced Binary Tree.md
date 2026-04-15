@@ -1,4 +1,4 @@
-$$|Left Subtree Height - RightSubTreeHeight| \quad \leq 1$$
+ $$|Left Subtree Height - RightSubTreeHeight| \quad \leq 1$$
 
 1. Approach
 	1. At each node get `Left` & `Right` subtree's height

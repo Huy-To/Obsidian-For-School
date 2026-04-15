@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "44dcb1858a9b1a6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Electrical Engineer.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Electrical Engineer"
-            }
-          },
-          {
             "id": "68efef91c855ca13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Impedance.md",
+                "file": "Probability and Statistics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Impedance"
+              "title": "Probability and Statistics"
             }
           }
         ],
@@ -82,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "frac",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical Engineer.md",
+                "file": "Probability and Statistics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Electrical Engineer"
+              "title": "Backlinks for Probability and Statistics"
             }
           },
           {
@@ -248,35 +233,42 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "44dcb1858a9b1a6b",
+  "active": "68efef91c855ca13",
   "lastOpenFiles": [
-    "{AC12D2F1-8A98-403C-8138-E872ABBAFF2C}.png",
-    "Impedance.md",
-    "Electrical Engineer.md",
-    "{5FEA489E-E34C-47CF-9B9F-08087133A7D0}.png",
-    "School/Software Engineer.md",
-    "310/Heaps.md",
-    "310/Priority Queue.md",
-    "310/Logarithmic.md",
+    "{336410AB-9859-4147-A912-8BC7716D00CE}.png",
     "Inversions.md",
-    "310/Quick Sort.md",
-    "Insertion Sort.md",
-    "Bubble Sort.md",
-    "310/Dynamic Array.md",
-    "Counting Sort.md",
+    "My Lady's.md",
+    "310/Logarithmic.md",
     "310/Linked List.md",
+    "310/Preorder Traversal.md",
+    "310/Pointer.md",
+    "310/Postorder Traversal.md",
+    "310/Queue.md",
+    "310/Reflexive Property.md",
+    "310/set_at(i).md",
+    "310/Stacks.md",
     "310/Static Array.md",
-    "310/Binary Search.md",
-    "310/Merge Sort.md",
-    "Hash Function.md",
-    "Hash Tables.md",
-    "Heap Sort.md",
-    "Maps.md",
-    "recursions.md",
-    "Balanced Binary Tree.md",
-    "Bloom Filters.md",
-    "Breadth First Search.md",
-    "Depth First Search.md",
+    "310/Total Order.md",
+    "310/Transitive Property.md",
+    "310/Tree.md",
+    "310/Unbalanced Binary Search Tree.md",
+    "310/Union Find.md",
+    "310/Space Complexity.md",
+    "310/Heaps.md",
+    "310/Comparability Property.md",
+    "310/Asymptotic Notations.md",
+    "310/Antisymmetric Property.md",
+    "310/amortized.md",
+    "310/Asymptotic.md",
+    "School/Software Engineer.md",
+    "{A6E1F08A-18FF-4825-BA76-6FB15140D398} 1.png",
+    "{10066267-D193-4989-891B-2E52307C62AC}.png",
+    "{A6E1F08A-18FF-4825-BA76-6FB15140D398} 2.png",
+    "{A6E1F08A-18FF-4825-BA76-6FB15140D398}.png",
+    "{4C1DF245-CAA4-44D6-A0B2-09BEFBB3FD61}.png",
+    "{6D0EDBC4-62F4-42B4-ACB8-F80565A19540}.png",
+    "{AC12D2F1-8A98-403C-8138-E872ABBAFF2C}.png",
+    "{5FEA489E-E34C-47CF-9B9F-08087133A7D0}.png",
     "Templates/Bases/Data Structure.base",
     "Templates/Bases/Algorithm.base",
     "Templates/Bases/Classes.base",

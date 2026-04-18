@@ -136,4 +136,16 @@ $$P(A|B) = \frac{P(B|A)P(A)}{P(B)}$$
 	- $$P(x_1 < X \leq x_2) = ?$$
 2. `Mean`(expected) value of a discrete random variable
 	- To find `Mean`, we multiply each possible value of $x_i$ with their corresponding probabilities $$P(X = x_i) = P(x_i), 1 \leq i \leq n$$Then we add all the products
-	- $$\mu = E(X) =$$
+	- $$\mu = E(X) =x_1P(x_1)+x_2P(x_2)+....+x_nP(x_n) = \sum_{i=0}^nx_iP(x_i)$$
+## Expected value of real functions
+ - Suppose that $X$ is a random discrete variable with possible values {$x_1, x_2, … , x_n$}. and with probability function $P(x)$. Let $g(x)$ be a real valued function of $X$ : i.e. $g: X \rightarrow M$. Then the expected value of $g(X)$ is given by: $$E[g(X)] = \sum_{i=0}^ng(x_i)P(x_i)$$
+## Variance of a random variable
+1. $$var[x] = \text{variability of x with respect to} \quad \mu   $$
+2. $$var[x] = E[(x-\mu)^2] = E[x^2] - \mu^2$$
+3. Important Relationships
+	1. $$Var[c] = 0$$
+	2. $$Var[cx] = c^2Var[x]$$
+	3. $$Var[x+d] = Var[x]$$
+## Bernoulli Distribution
+1. Bernoulli trial:
+	- A random trial with binary outcome

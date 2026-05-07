@@ -4,67 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "7192c931a139c588",
+        "id": "584fca85f780b9b3",
         "type": "tabs",
         "children": [
           {
-            "id": "609e484e43c7e90b",
+            "id": "a336e9ee789828f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Software Engineer.md",
+                "file": "Bitocin/Bitcoin Analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Software Engineer"
+              "title": "Bitcoin Analysis"
             }
           },
           {
-            "id": "50e7c246fcf8ed45",
+            "id": "f3ccffdf09ab930d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Balanced Parentheses.md",
+                "file": "Power Law.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Balanced Parentheses"
-            }
-          },
-          {
-            "id": "631e90a16220aaa6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Probability and Statistics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Probability and Statistics"
-            }
-          },
-          {
-            "id": "636fecf7c96bc514",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bitcoin Power Law.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Bitcoin Power Law"
+              "title": "Power Law"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
+      },
+      {
+        "id": "fc0ed8b53b837157",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "739a102a3a221c98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Presentation Note.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Presentation Note"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 203.5
   },
   "right": {
     "id": "77ea78b124a91867",
@@ -137,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bitcoin Power Law.md",
+                "file": "Presentation Note.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Bitcoin Power Law"
+              "title": "Backlinks for Presentation Note"
             }
           },
           {
@@ -261,16 +253,30 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "636fecf7c96bc514",
+  "active": "739a102a3a221c98",
   "lastOpenFiles": [
-    "Probability and Statistics.md",
+    "Power Law.md",
+    "Presentation Note.md",
+    "Bitocin/Bitcoin Analysis.md",
+    "Script.md",
+    "Pasted image 20260506131853.png",
+    "Bitocin/blockchain._42_1.png",
+    "Bitocin/blockchain._31_0.png",
+    "Bitocin/blockchain._30_0.png",
+    "Bitocin/blockchain._24_0.png",
+    "Bitocin/blockchain._25_0.png",
+    "Bitocin/blockchain._27_0.png",
+    "Bitocin/blockchain._16_0.png",
+    "Bitocin/blockchain._14_0.png",
+    "Bitocin/blockchain._9_0.png",
+    "Bitocin",
     "Bitcoin Power Law.md",
+    "Probability and Statistics.md",
     "Saigon.md",
     "School/Software Engineer.md",
     "Seminar 3.md",
     "Balanced Parentheses.md",
     "Categories/Classes.md",
-    "{336410AB-9859-4147-A912-8BC7716D00CE}.png",
     "Inversions.md",
     "My Lady's.md",
     "310/Logarithmic.md",
@@ -286,18 +292,6 @@
     "310/Total Order.md",
     "310/Transitive Property.md",
     "310/Tree.md",
-    "310/Unbalanced Binary Search Tree.md",
-    "310/Union Find.md",
-    "310/Space Complexity.md",
-    "310/Heaps.md",
-    "{A6E1F08A-18FF-4825-BA76-6FB15140D398} 1.png",
-    "{10066267-D193-4989-891B-2E52307C62AC}.png",
-    "{A6E1F08A-18FF-4825-BA76-6FB15140D398} 2.png",
-    "{A6E1F08A-18FF-4825-BA76-6FB15140D398}.png",
-    "{4C1DF245-CAA4-44D6-A0B2-09BEFBB3FD61}.png",
-    "{6D0EDBC4-62F4-42B4-ACB8-F80565A19540}.png",
-    "{AC12D2F1-8A98-403C-8138-E872ABBAFF2C}.png",
-    "{5FEA489E-E34C-47CF-9B9F-08087133A7D0}.png",
     "Templates/Bases/Data Structure.base",
     "Templates/Bases/Algorithm.base",
     "Templates/Bases/Classes.base",

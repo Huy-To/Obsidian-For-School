@@ -4,59 +4,109 @@
     "type": "split",
     "children": [
       {
-        "id": "584fca85f780b9b3",
+        "id": "60f176a543f7db95",
         "type": "tabs",
         "children": [
           {
-            "id": "a336e9ee789828f1",
+            "id": "7c1c63ddf29bf3bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bitocin/Bitcoin Analysis.md",
+                "file": "Seminar 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bitcoin Analysis"
+              "title": "Seminar 5"
             }
           },
           {
-            "id": "f3ccffdf09ab930d",
+            "id": "f782d8f08f04f32b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Power Law.md",
+                "file": "Seminar 6.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Power Law"
+              "title": "Seminar 6"
+            }
+          },
+          {
+            "id": "28b225745055fa12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Seminar 7.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Seminar 7"
+            }
+          },
+          {
+            "id": "a9fe078b5df8819a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Seminar 8.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Seminar 8"
+            }
+          },
+          {
+            "id": "d6bd7de3994b3637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practice on Modular Arithmetic.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Practice on Modular Arithmetic"
+            }
+          },
+          {
+            "id": "00b581c6687a6dc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Practice on Zero-Knowledge Proof.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Practice on Zero-Knowledge Proof"
+            }
+          },
+          {
+            "id": "4a3c3cd5ff8c4318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Proof.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Proof"
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "fc0ed8b53b837157",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "739a102a3a221c98",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Presentation Note.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Presentation Note"
-            }
-          }
-        ]
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -129,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Presentation Note.md",
+                "file": "Proof.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +189,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Presentation Note"
+              "title": "Backlinks for Proof"
             }
           },
           {
@@ -231,8 +281,19 @@
               "icon": "history",
               "title": "History"
             }
+          },
+          {
+            "id": "5d587a1d14159407",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 8
       }
     ],
     "direction": "horizontal",
@@ -253,45 +314,44 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "739a102a3a221c98",
+  "active": "9b96a661715cb44c",
   "lastOpenFiles": [
-    "Power Law.md",
-    "Presentation Note.md",
-    "Bitocin/Bitcoin Analysis.md",
-    "Script.md",
-    "Pasted image 20260506131853.png",
-    "Bitocin/blockchain._42_1.png",
-    "Bitocin/blockchain._31_0.png",
-    "Bitocin/blockchain._30_0.png",
-    "Bitocin/blockchain._24_0.png",
-    "Bitocin/blockchain._25_0.png",
-    "Bitocin/blockchain._27_0.png",
-    "Bitocin/blockchain._16_0.png",
-    "Bitocin/blockchain._14_0.png",
-    "Bitocin/blockchain._9_0.png",
-    "Bitocin",
-    "Bitcoin Power Law.md",
-    "Probability and Statistics.md",
-    "Saigon.md",
-    "School/Software Engineer.md",
+    "Untitled.md",
+    "Proof.md",
+    "{FE903AE6-AD9A-4E25-8E08-37E6AC12CDAC}.png",
+    "{1E31AACC-1765-42A1-A37C-E252F4B446C5}.png",
+    "{9745345B-D3C0-4DC1-AEFB-60F033285EE8} 1.png",
+    "{9745345B-D3C0-4DC1-AEFB-60F033285EE8}.png",
+    "{C51C5F0E-C6F4-429B-A004-D3CE04D1CA90}.png",
+    "{5CFE3C3E-3556-49B4-96D1-6B5F9ECE00FA}.png",
+    "{AFED274B-5BD4-46FD-B526-C74E34854A4E} 1.png",
+    "{AFED274B-5BD4-46FD-B526-C74E34854A4E}.png",
+    "{501D5E76-A585-45C5-A36A-FFCD0DBA0DD8}.png",
+    "{13FCE917-E441-46BD-ADDF-B7DBAFEC47A6} 1.png",
+    "Practice on Zero-Knowledge Proof.md",
+    "Practice on Modular Arithmetic.md",
+    "Homework 1.md",
+    "Seminar 8.md",
+    "Seminar 7.md",
+    "Seminar 6.md",
+    "Seminar 5.md",
     "Seminar 3.md",
-    "Balanced Parentheses.md",
-    "Categories/Classes.md",
-    "Inversions.md",
+    "Seminar 4.md",
+    "Seminar 2.md",
+    "Presentation Note.md",
+    "Power Law.md",
+    "Perfect secrecy and Hill cipher.md",
     "My Lady's.md",
-    "310/Logarithmic.md",
-    "310/Linked List.md",
-    "310/Preorder Traversal.md",
-    "310/Pointer.md",
-    "310/Postorder Traversal.md",
-    "310/Queue.md",
-    "310/Reflexive Property.md",
-    "310/set_at(i).md",
-    "310/Stacks.md",
-    "310/Static Array.md",
-    "310/Total Order.md",
-    "310/Transitive Property.md",
-    "310/Tree.md",
+    "Maps.md",
+    "Inversions.md",
+    "Insertion Sort.md",
+    "Impedance.md",
+    "Heap Sort.md",
+    "Hash Function.md",
+    "Depth First Search.md",
+    "Counting Sort.md",
+    "Bubble Sort.md",
+    "Bitocin",
     "Templates/Bases/Data Structure.base",
     "Templates/Bases/Algorithm.base",
     "Templates/Bases/Classes.base",

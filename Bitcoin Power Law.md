@@ -1,0 +1,3 @@
+
+- Value = Consensus of everyone
+- 
